@@ -1,0 +1,48 @@
+body{
+   background-color: blueviolet;
+   background-image: url('./image/contact_bg_image.jfif');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 800px;
+}
+.contact_content{
+    color:red;
+    position: absolute;
+    top: 20%;
+    font-family: 'Poppins', sans-serif;
+    left:20%;
+}
+
+.font_content{
+    color:white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#font_icon{
+    color:red;
+    font-size: 30px;
+    
+}
+fieldset{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    left: 0%;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+input{
+    width:400px;
+    height: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+#btn{
+    text-align: center;
+    left: 40%;
+    position:relative;
+    padding-left:30px;
+    padding-right:30px ;
+}

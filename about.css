@@ -1,0 +1,20 @@
+#image{
+    width: 100%;
+
+}
+fieldset {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: center;
+    line-height: 50px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+legend{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

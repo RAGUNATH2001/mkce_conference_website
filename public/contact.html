@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./image/mkce_logo.png">
+  <link rel="stylesheet" href="./navigation_bar.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!--font  icon -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+  <script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/GslyCsZk6KJZEAez/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+
+  <title>Contact</title>
+</head>
+
+<body>
+  <nav>
+    <div class="wrapper">
+     
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+       
+         
+        <li><a href="committee.html">Committee</a></li>
+        <li><a href="./call_for_paper.html">call for paper</a></li>
+        <li><a target="_blank"  href="https://forms.gle/krhE2tDK4z72rkpu7">Register</a></li>
+    
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+
+  <div class="contact">
+    
+  
+      <div class="contact_content">
+       
+        <i id="font_icon" class="material-icons"> person_pin</i> <span class="font_content">Dr.P.Santhi <br> Associate Professor-CSE</span> <br><br>
+
+        <i id="font_icon" class="material-icons">phone_in_talk</i> <span class="font_content">8610227735</span> <br><br>
+        <i id="font_icon" class="material-icons">language</i> <span><a class="font_content" style href="language">www.mkce.ac.in</a></span> <br><br>
+        <!-- <i id="font_icon" class="material-icons">mail</i> <span class="font_content">aaa@gmail.com</span> <br><br> <br> -->
+
+        <h3>Or</h3>
+        <br>
+
+	<form id="myForm">
+	
+		<input  name="Name" placeholder="Enter your Name" />
+		<br/> <br>
+	
+		<input name="Email Id" placeholder="Enter your email id" />
+		<br/> <br>
+    <input name="Phone Number" placeholder="Enter your phone number" />
+		<br/> <br>
+	
+		<input name="Query" placeholder="Enter your query" />
+		<br/><br>
+	
+	
+		
+	</form>
+	<button id="btn" onclick='SubForm()'>Submit</button>
+ 
+
+      
+
+        
+      
+       
+      </div>
+     
+
+  
+  
+ 
+ 
+      <span id="footer">
+        <span style="background-color: rgb(224, 218, 218,0.5);">
+          <p id="con">The Conference Chair</p>  
+          <p>M.Kumarasamy college of Engineering[Autonomous]</p> 
+          <p>Mobile  : +91-9842414677, +91-7540046077 | More Details:www.mkce.ac.in</p>
+        </span>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

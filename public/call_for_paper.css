@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAA3d-61kx3bcNqE0O5VAVwJVrSDr9rBc03w&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.call_for_papper_content{
+   
+    color: white;
+    position: absolute;
+    top: 12%;
+  
+
+
+}
+legend{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  
+}
+.call_for_papper_content ul{
+    list-style-type: none;
+    margin-left:20%;
+}
+#con1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#con1_li{
+    color:white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+
+}
+#fieldset2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAA3d-61kx3bcNqE0O5VAVwJVrSDr9rBc03w&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con2{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  
+    font-size:20px;
+}

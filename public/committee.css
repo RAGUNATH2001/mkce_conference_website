@@ -1,0 +1,130 @@
+body{
+    background-image: url("https://coolwallpaper-hd.com/wp-content/uploads/2020/11/Best-HD-Blue-Neon-Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-color: bisque;
+    border-top: 2px solid green;
+    border-left: 2px solid green;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    color:white;
+
+}.content11{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    background-color: rgb(150, 140, 140);
+    padding: 20px;
+}
+fieldset{
+    border-left:none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+   text-indent: 40px;
+   font-size: 40px;
+   color:red;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+legend{
+    font-size: 30px;
+}
+.title1{
+    text-align: center;
+    
+}
+.dot1{
+    border-top:2px solid red;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.grid1{
+    display: grid;
+    grid-template-columns:30% 30%;    text-align: center;
+    margin-left: 30%;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid1 div{
+    font-family: 'Times New Roman', Times, serif;
+}
+.dot2{
+    border-top:2px solid red;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-left: 20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.grid2 div{
+    font-family: 'Times New Roman', Times, serif;
+}
+.c1{
+    font-size: 20px;
+
+}
+.dot3{
+    border-top:2px solid red;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.grid3{
+    text-align: center;
+}
+.dot4{
+    border-top:2px solid red;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.grid4{
+    
+    text-align: center;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: 40%  2% 30% ;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+.dot5{
+    border-right: 2px solid red;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.dot6{
+    border-top:2px solid red;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.grid7{
+    display: grid;
+    grid-template-columns: 30% 2%  30% 2% 30% ;
+}
+.dot7{
+    border-top:2px solid red;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.dot8{
+    border-right:2px solid red;
+  
+}
+.dot9{
+    border-right:2px solid red;
+    
+}
+.dot10{
+    border-bottom:2px solid red;
+    
+}

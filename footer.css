@@ -1,0 +1,12 @@
+#footer{
+    color:white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(253, 246, 246);
+}
+#footer p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px;
+    color:black;
+}
